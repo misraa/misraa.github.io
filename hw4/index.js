@@ -10,18 +10,11 @@ const examples = {
   'example1':
       'Alice was beginning to get very tired of sitting by her sister on the bank.',
   'example2':
-      'On this were sure to be seated quite a group of home-coming
-peasants, the Cszeks with their white, and the Slovaks with their
-coloured, sheepskins, the latter carrying lance-fashion their long
-staves, with axe at end',
+      'home-coming peasants, the Cszeks with their white, and the Slovaks with their',
   'example3':
-      'This family paper was committed to my care by Sir Charles Baskerville,
-whose sudden and tragic death some three months ago created so much',
+      'This family paper was committed to my care by Sir Charles Baskerville, whose sudden death',
   'example4':
-      'A troubled mind drave me to walk abroad;
-    Where, underneath the grove of sycamore
-    That westward rooteth from the city's side,
-    So early walking did I see your son.'      
+      'Underneath the grove of sycamore That westward rooteth from the citys side.'      
 };
 
 function status(statusText) {
