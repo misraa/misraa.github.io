@@ -10,11 +10,18 @@ const examples = {
   'example1':
       'Alice was beginning to get very tired of sitting by her sister on the bank.',
   'example2':
-      'hello.',
+      'On this were sure to be seated quite a group of home-coming
+peasants, the Cszeks with their white, and the Slovaks with their
+coloured, sheepskins, the latter carrying lance-fashion their long
+staves, with axe at end',
   'example3':
-      'Buda-Pesth seems a wonderful place.',
+      'This family paper was committed to my care by Sir Charles Baskerville,
+whose sudden and tragic death some three months ago created so much',
   'example4':
-      'Scepticism was as much the result of knowledge, as knowledge is of scepticism.'      
+      'A troubled mind drave me to walk abroad;
+    Where, underneath the grove of sycamore
+    That westward rooteth from the city's side,
+    So early walking did I see your son.'      
 };
 
 function status(statusText) {
