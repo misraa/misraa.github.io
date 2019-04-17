@@ -10,11 +10,11 @@ const examples = {
   'example1':
       'Alice was beginning to get very tired of sitting by her sister on the bank.',
   'example2':
-      'Buda-Pesth seems a wonderful place.',
+      'hello.',
   'example3':
-      'This family paper was committed to my care by Sir Charles Baskerville, whose sudden and tragic death some three months ago created so much',
+      'Buda-Pesth seems a wonderful place.',
   'example4':
-      'To old Freetown, our common judgment place, Romeo'
+      'Scepticism was as much the result of knowledge, as knowledge is of scepticism.'      
 };
 
 function status(statusText) {
@@ -49,11 +49,11 @@ function doPredict(predict) {
   const result = predict(textField.value);
   score_string = "Class scores: ";
   for (var x in result.score) {
-    score_string += x + " ->  " + result.score[x].toFixed(4) + ", "
+    score_string += x + " ->  " + result.score[x].toFixed(3) + ", "
   }
   //console.log(score_string);
   status(
-      score_string + ' elapsed: ' + result.elapsed.toFixed(4) + ' ms)');
+      score_string + ' elapsed: ' + result.elapsed.toFixed(3) + ' ms)');
 }
 
 function prepUI(predict) {
