@@ -12,7 +12,9 @@ const examples = {
   'example2':
       'Buda-Pesth seems a wonderful place.',
   'example3':
-      'Scepticism was as much the result of knowledge, as knowledge is of scepticism.'      
+      'This family paper was committed to my care by Sir Charles Baskerville, whose sudden and tragic death some three months ago created so much'
+  'example4':
+      'To old Freetown, our common judgment place, Romeo'
 };
 
 function status(statusText) {
