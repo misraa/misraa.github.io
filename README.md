@@ -1,1 +1,1 @@
-# misraa.github.io
+Redirect to misraa.fyi
